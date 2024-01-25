@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" type="images/png" href="images/logo512.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a36897a85f.js" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        (function (c, l, a, r, i, t, y) {
+            c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+            t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+            y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+        })(window, document, "clarity", "script", "i4u605tz2t");
+    </script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo%20100.jpeg" class="logo">
+                <ul id="sidememu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">My Skills</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closememu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmemu()"></i>
+            </nav>
+            <div class="header-text animated animatedFadeInUp fadeInUp">
+                <p>Friendly Coder</p>
+                <h1>Hi i'm <span>chege</span><br>from kenya</h1>
+            </div>
+        </div>
+    </div>
+    <!-- --------about-------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a dedicated and enthusiastic developer. I am pursuing MIT program from emobilis, Nairobi. I have
+                        always been fascinated by technology and its potential to change the world, and that's what led
+                        me to pursue a career in computer science.</p>
+                    <p><br>Apart from academics, if I'm learning or developing anything, I'll be completely focused on
+                        it, even if it takes months. I'm eager to learn about new technologies in the market. I'm a
+                        voracious reader. It could be anything from self-help books to blogs or Twitter threads.</p>
+                    <p><br>In the future, I aspire to become a software developer and contribute to the development of
+                        innovative solutions that can make a difference in people's lives.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+
+                            <li><span>Front End Developer</span><br>Building websites using HTML,CSS and JS</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>May 2023 - Jul 2023 <strong>:</strong> Remote</span><br>AI–ML Virtual Internship at <strong>KICC KENYA</strong></li>
+                            <li><span>May 2023 <strong>:</strong> On-site</span><br>Artificial Intelligence (AI) Training at <strong>EMOBILIS TRAINING INSTITUTION</strong></li>
+                            <li><span>Aug 2022 <strong>:</strong> Remote</span><br>Android Application Development Internship at <strong>EMOBILIS</strong></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>jan 2024 – Expected jan 2024</span><br>MIT Program from <strong>Emobilis training institution</strong></li>
+                            <li><span>may 2024 – expencted august 2024</span><br>computer scince from<strong>kenyatta university</strong></li>
+                            –
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------services--------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>As a front-end developer, I can create and implement the user interface of a website or web
+                        application. This involves working with HTML, CSS, and JavaScript to design and develop web
+                        pages that are visually appealing, responsive, and user-friendly. </p>
+                    <a href="#services">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Python</h2>
+                    <p>As a Python developer, I can design, develop, and maintain software applications using the Python
+                        programming language. This could involve building web applications like Django or implementing
+                        machine learning algorithms, depending on the specific job requirements. </p>
+
+
+        </div>
+    </div>
+    <!-- -------amigos------ -->
+    <div id="amigos">
+        <div class="container">
+
+
+
+
+
+    </div>
+    <!-- ------contact------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>simplychege345@gmail.com</p>
+                    <div class="social-icons">
+
+                        <a href="https://www.instagram.com/simp.4_ch3ge_/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></i></a>
+
+                    </div>
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="wait-msg"></span>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2024 john.</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidememu = document.getElementById("sidememu")
+        function openmemu() {
+            sidememu.style.right = "0";
+        }
+        function closememu() {
+            sidememu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzCAisZMHazohtwuB28nIDN9biC_O-H1zpbO4pPXZjyYdrCFMAVoKcE2ilKe14KjTt_/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        const waitMsg = document.getElementById("wait-msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+            waitMsg.innerHTML = "Please wait...";
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    waitMsg.innerHTML = "";
+                    msg.innerHTML = "Message sent successfully";
+                    setTimeout(function () {
+                        msg.innerHTML = "";
+                    }, 5000);
+                    form.reset();
+                })
+                .catch(error => {
+                    waitMsg.innerHTML = "";
+                    console.error('Error!', error.message);
+                });
+        });
+    </script>
+
+</body>
+
+</html>
